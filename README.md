@@ -1,5 +1,6 @@
 # Taxonomy-Shaped Mixture-of-Experts Routing Atypicality for Zero-Shot Out-of-Taxonomy Transient Discovery in Rubin/LSST and ZTF
 
+[](https://zenodo.org/records/23892237)
 [](https://arxiv.org/)
 [](https://opensource.org/licenses/MIT)
 [](https://www.python.org/)
@@ -120,7 +121,7 @@ If you use this code, routing objective, or benchmark evaluation in your researc
 @article{sinha2026astromoerouting,
   title   = {Taxonomy-Shaped Mixture-of-Experts Routing Atypicality for Zero-Shot Out-of-Taxonomy Transient Discovery in Rubin/LSST and ZTF},
   author  = {Sinha, Anurag},
-  journal = {arXiv preprint},
+  journal = {zenodo preprint},
   year    = {2026}
 }
 ```
