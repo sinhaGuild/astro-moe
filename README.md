@@ -8,7 +8,7 @@
 
 Official PyTorch/NumPy implementation and reproducibility suite for the paper:
 
-> **Taxonomy-Shaped Mixture-of-Experts Routing Atypicality for Zero-Shot Out-of-Taxonomy Transient Discovery in Rubin/LSST and ZTF**  
+> [**Taxonomy-Shaped Mixture-of-Experts Routing Atypicality for Zero-Shot Out-of-Taxonomy Transient Discovery in Rubin/LSST and ZTF**](https://zenodo.org/records/23892237)  
 > **Anurag Sinha** (*Independent Researcher*)  
 > *Categories:* `astro-ph.IM` (Primary), `cs.LG`, `astro-ph.HE`
 
