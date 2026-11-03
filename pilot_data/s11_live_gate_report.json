@@ -1,0 +1,75 @@
+{
+  "backend_used": "torch+numpy",
+  "vanilla_within_cross_cosine_gap": 0.0,
+  "taxonomy_routed_within_cross_cosine_gap": 0.5284,
+  "cosine_gap_relative_increase_pct": 4872899.58,
+  "vanilla_id_macro_f1": 0.864,
+  "taxonomy_routed_id_macro_f1": 0.871,
+  "j_tax_vanilla": 0.0,
+  "j_tax_taxonomy_routed": 0.0748,
+  "l_temp_vanilla": 0.0,
+  "l_temp_taxonomy_routed": 0.0005,
+  "metrics_at_1pct_far": {
+    "MoE_Routing_Atypicality_A_route": {
+      "recall_at_1pct_far": 0.9795,
+      "auroc": 0.9992,
+      "threshold_1pct_far": 12.0829
+    },
+    "S_path_Only": {
+      "recall_at_1pct_far": 0.845,
+      "auroc": 0.9968,
+      "threshold_1pct_far": 0.1804
+    },
+    "S_switch_Only": {
+      "recall_at_1pct_far": 0.7222,
+      "auroc": 0.9864,
+      "threshold_1pct_far": 0.7097
+    },
+    "S_band_Only": {
+      "recall_at_1pct_far": 0.9854,
+      "auroc": 0.999,
+      "threshold_1pct_far": 0.0378
+    },
+    "Output_Predictive_Entropy": {
+      "recall_at_1pct_far": 0.0175,
+      "auroc": 0.6885,
+      "threshold_1pct_far": 1.5459
+    },
+    "Max_Softmax_Probability": {
+      "recall_at_1pct_far": 0.0088,
+      "auroc": 0.6941,
+      "threshold_1pct_far": 0.7121
+    },
+    "Penultimate_Mahalanobis": {
+      "recall_at_1pct_far": 0.0994,
+      "auroc": 0.6283,
+      "threshold_1pct_far": 4.3696
+    }
+  },
+  "per_ood_class_recall_at_1pct_far": {
+    "Kilonova (KN)": {
+      "MoE_Routing_Atypicality_A_route": 1.0,
+      "Output_Predictive_Entropy": 0.0309,
+      "Penultimate_Mahalanobis": 0.0123
+    },
+    "Intermediate Luminosity Optical Transient (ILOT)": {
+      "MoE_Routing_Atypicality_A_route": 1.0,
+      "Output_Predictive_Entropy": 0.0,
+      "Penultimate_Mahalanobis": 0.15
+    },
+    "Pair-Instability Supernova (PISN)": {
+      "MoE_Routing_Atypicality_A_route": 1.0,
+      "Output_Predictive_Entropy": 0.0,
+      "Penultimate_Mahalanobis": 0.3667
+    },
+    "FLARE Rare (FBOT / Ca-rich / LBV)": {
+      "MoE_Routing_Atypicality_A_route": 0.8833,
+      "Output_Predictive_Entropy": 0.0167,
+      "Penultimate_Mahalanobis": 0.0167
+    }
+  },
+  "gate_1_specialization_increase_gt_20pct": true,
+  "gate_2_beats_entropy_at_1pct_far_by_5pp": true,
+  "gate_3_beats_mahalanobis_at_1pct_far_by_5pp": true,
+  "overall_s11_pass": true
+}
