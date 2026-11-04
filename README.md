@@ -98,7 +98,7 @@ uv run python s2_s11_astro_moe_routing_pilot.py \
     --output ./pilot_data/s11_live_gate_report.json
 ```
 
-### 4. Regenerate Publication Figures & Compile the LaTeX Manuscript
+### 4. Regenerate Figures
 
 ```bash
 uv run python generate_paper1_figures_and_tables.py \
@@ -106,9 +106,6 @@ uv run python generate_paper1_figures_and_tables.py \
     --features-npz ./pilot_data/astro_moe_50k_mps_outputs.npz \
     --tex-path s11_astro_moe_routing_arxiv_manuscript.tex \
     --out-dir ./publication_figures
-
-pdflatex -interaction=nonstopmode s11_astro_moe_routing_arxiv_manuscript.tex
-pdflatex -interaction=nonstopmode s11_astro_moe_routing_arxiv_manuscript.tex
 ```
 
 ---
